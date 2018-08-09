@@ -1,0 +1,47 @@
+﻿@using StrongerTogether.Models
+@model User
+@{
+    ViewBag.Title = "UserDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 align="center">User Details</h2>
+<h5 align="center">
+    @Html.ActionLink("Click to Return to All Users", "AllUsers", "Account", null, null)
+</h5>
+<div>
+    @Html.ActionLink("Edit", "UpdateUser", "Account", new { UserId = Model.UserId }, new { @class = "btn btn-info btn-lg" })
+    @Html.ActionLink("Delete", "Delete", "Account", new { userId = Model.UserId }, new { @onclick = "return confirm('Are you sure?')", @class = "btn btn-danger btn-lg" })
+</div>
+<div>
+</div>
+<div class="container">
+    <div class="row">
+        <h3 class="text-left">Username</h3>
+        <div class="col-lg-2">
+            <p>@Model.Username</p>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="text-left">Role</h3>
+        <div class="col-lg-2">
+            <p>@Model.RoleName</p>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="text-left">Email</h3>
+        <div class="col-lg-2">
+            <p>@Model.Email</p>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="text-left" ">Bio</h3>
+        <div class="col-lg-2">
+            <p>@Model.Bio</p>
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,170 @@
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/10/2018 3:27:10 PM / Error
+Cannot open database "StrongerTogether" requested by the login. The login failed.
+Login failed for user 'Admin-2-PC\Seth'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/10/2018 3:29:35 PM / Error
+Cannot open database "StrongerTogether" requested by the login. The login failed.
+Login failed for user 'Admin-2-PC\Seth'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/10/2018 3:35:52 PM / Error
+Cannot open database "StrongerTogether" requested by the login. The login failed.
+Login failed for user 'Admin-2-PC\Seth'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/10/2018 3:43:09 PM / Error
+Cannot open database "StrongerTogether" requested by the login. The login failed.
+Login failed for user 'Admin-2-PC\Seth'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/10/2018 3:53:06 PM / Error
+Cannot open database "StrongerTogether" requested by the login. The login failed.
+Login failed for user 'Admin-2-PC\Seth'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 11:26:02 AM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 25
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 1:43:38 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 1:43:49 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:23:08 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:24:01 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:24:14 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:29:55 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:30:38 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:32:23 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/11/2018 2:34:07 PM / Error
+Role
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190

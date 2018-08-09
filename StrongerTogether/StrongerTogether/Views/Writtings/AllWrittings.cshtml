@@ -1,0 +1,103 @@
+﻿@using StrongerTogether.Models
+@model List<Writtings>
+@{
+    ViewBag.Title = "AllWrittings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 align="center">All Writtings</h2>
+@if ((long?)Session["Role"] >= 1)
+{
+    @Html.ActionLink("Create a Writting", "CreateWrittings", "Writtings", null, new { @class = "btn btn-primary" })
+}
+    @*Make appropriate comment*@
+@using (Html.BeginForm(null, null, FormMethod.Post))
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Username
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Date Published
+                </th>
+                <th>
+                    Content
+                </th>
+
+                <th>
+                    Writting Details
+                </th>
+                @*security*@
+                @if ((long?)Session["Role"] >= 1)
+                {
+                    <th>
+                        Word Count
+                    </th>
+                }
+            </tr>
+        </thead>
+
+
+        <tbody>
+            @*Make appropriate comment*@
+            @foreach (Writtings displayObject in Model)
+            {
+                <tr>
+                    <td>
+                        @displayObject.Username
+                    </td>
+                    <td>
+                        @displayObject.Title
+                    </td>
+                    @*shows the date published and how to display it*@
+                    <td class="text-nowrap">
+                        @displayObject.DatePublished.ToString("yyyy-MM-dd")
+                    </td>
+                    <td>
+                        @displayObject.Blurb
+                    </td>
+                    @*Details link*@
+
+                    <td>
+                        @Html.ActionLink("More....", "WrittingDetails", "Writtings", new { writtingId = displayObject.WrittingId }, null)
+                    </td>
+                    @*security*@
+                    @if ((long?)Session["Role"] >= 1)
+                    {
+                        <td class="text-right">
+                            @displayObject.WordCount
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                @*security*@
+                @if ((long?)Session["Role"] >= 1)
+                {
+                    @*displays my wordcount*@
+                    <td colspan="5"></td>
+                    <td class="text-right">
+                        @if (ViewBag.AverageWordCount != null)
+                        {
+                            <strong>Avg. Words:</strong>
+                            <text>@ViewBag.AverageWordCount</text>
+                        }
+
+                    </td>
+                }
+            </tr>
+        </tfoot>
+    </table>
+    @*images*@
+    <img height="300" width="375" src="~/Content/Images/ItsTime.jpg" />
+    <img height="300" width="385" src="~/Content/Images/dont.jpg" />
+    <img height="300" width="370" src="~/Content/Images/Walter.jpg" />
+}
+

@@ -1,0 +1,6 @@
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\bin\Debug\StrongerTogetherBLL.dll
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\bin\Debug\StrongerTogetherBLL.pdb
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\obj\Debug\StrongerTogetherBLL.csprojAssemblyReference.cache
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\obj\Debug\StrongerTogetherBLL.csproj.CoreCompileInputs.cache
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\obj\Debug\StrongerTogetherBLL.dll
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\obj\Debug\StrongerTogetherBLL.pdb

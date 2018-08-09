@@ -1,0 +1,6 @@
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\bin\Debug\StrongerTogetherDAL.dll
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\bin\Debug\StrongerTogetherDAL.pdb
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\obj\Debug\StrongerTogetherDAL.csproj.CoreCompileInputs.cache
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\obj\Debug\StrongerTogetherDAL.dll
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\obj\Debug\StrongerTogetherDAL.pdb
+C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\obj\Debug\StrongerTogetherDAL.csprojAssemblyReference.cache

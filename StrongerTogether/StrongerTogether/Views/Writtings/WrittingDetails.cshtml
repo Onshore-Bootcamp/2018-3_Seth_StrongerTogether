@@ -1,0 +1,30 @@
+﻿@using StrongerTogether.Models
+@model Writtings
+@{
+    ViewBag.Title = "WrittingDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if ((long?)Session["Role"] >= 1)
+{
+    <h2 align="center">Writting Details</h2>
+    <h6 align="center">@Html.ActionLink("Click to Return to All Writtings", "AllWrittings", "Writtings", null, null)</h6>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div align="center" class="panel-title">@Model.Title</div>
+        </div>
+        <div align="center" class="panel-body">
+            @Model.Content
+        </div>
+        <div align="center" class="panel-footer">@Model.DatePublished.ToString("yyyy-MM-dd")</div>
+    </div>
+    <div>
+        @Html.ActionLink("Edit", "UpdateWrittings", "Writtings", new { WrittingId = Model.WrittingId }, new { @class = "btn btn-info btn-lg" })
+
+        @Html.ActionLink("Delete", "DeleteWrittings", "Writtings", new { WrittingId = Model.WrittingId }, new { @onclick = "return confirm('Are you sure?')", @class = "btn btn-danger btn-lg" })
+    </div>
+}
+
+
+
+

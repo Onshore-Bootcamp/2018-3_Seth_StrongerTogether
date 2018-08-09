@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+<script src="~/Scripts/BrickBreaker.js"></script>
+
+@*Make appropriate comment*@
+<div class="jumbotron text-center">
+    <h1 align="center">Welcome to Stronger Together</h1>
+    <p align="center" class="lead">Here at Stronger Together. We are a community of people. Who enjoy getting things off of our chest. While at the same time learning about what makes us well us.</p>
+    <img class="" height="600"  src="~/Content/Images/2018.jpg"/>
+</div>
+
+@*Make appropriate comment*@
+<div class="row">
+    <div class="col-md-4">
+        <h2>Brick Breaker!</h2>
+        <p>Why not take a few minutes and just have some fun!!!</p>
+        <p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#brickModal">
+                Play Brick Breaker
+            </button>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Writtings</h2>
+        <p>Why not get things off of your chest.</p>
+        <p>@Html.ActionLink("Create a Writting", "CreateWrittings", "Writtings", null, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Users</h2>
+        <p>
+           Become a member of our online family.
+        </p>
+        <p> @Html.ActionLink("Register User", "Create", "Account", null, new { @class = "btn btn-primary" })</p>
+    </div>
+</div>
+<div id="brickModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Brick Breaker</h5>
+                
+            </div>
+            <div class="modal-body text-center">
+                <canvas id="canvas" width="300" height="300"></canvas>
+                <button type="button" class="btn btn-success center-block" onclick="StartBrickBreaker()">PLAY</button>
+            </div>
+        </div>
+    </div>
+</div>

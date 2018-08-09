@@ -1,0 +1,721 @@
+---------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 10:48:53 AM / Error
+Procedure or function 'Update_User' expects parameter '@Email', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 10:49:33 AM / Error
+Procedure or function 'Update_User' expects parameter '@Email', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 10:49:53 AM / Error
+Procedure or function 'Update_User' expects parameter '@Email', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 10:53:26 AM / Error
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Roles_Users". The conflict occurred in database "StrongerTogether", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 10:57:43 AM / Error
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Roles_Users". The conflict occurred in database "StrongerTogether", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 11:01:58 AM / Error
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Roles_Users". The conflict occurred in database "StrongerTogether", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 11:03:11 AM / Error
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Roles_Users". The conflict occurred in database "StrongerTogether", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:UpdateUser / 7/12/2018 11:04:27 AM / Error
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Roles_Users". The conflict occurred in database "StrongerTogether", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.UserDAO.UpdateUser(UserDO user) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 143
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:49:21 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:49:35 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:49:51 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:50:00 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:50:02 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:50:02 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:50:28 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:51:41 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:51:44 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:55:11 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:57:28 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 12:58:00 PM / Error
+Description
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 41
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 1:13:12 PM / Error
+RoleId
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 190
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/12/2018 1:21:50 PM / Error
+Invalid column name 'Name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 184
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:25:02 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:26:36 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:27:03 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:39:53 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:40:33 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:53:23 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 8:59:45 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:15:08 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:25:42 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:30:07 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:30:29 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:32:09 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:32:39 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:33:15 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:36:27 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 9:44:27 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:WrittingsDAO Method:ViewAllWrittings / 7/13/2018 10:42:27 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.WrittingsMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\WrittingsMapperDO.cs:line 17
+   at StrongerTogetherDAL.WrittingsDAO.ViewAllWrittings() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 185
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:00:44 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 13
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:01:09 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 13
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:03:43 AM / Error
+Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader)
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks()
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:10:44 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader)
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks()
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:11:43 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader)
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks()
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:11:48 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader)
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks()
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:20:10 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:26:22 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:26:35 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:26:54 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:26:55 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:26:55 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:28:02 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:31:08 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:32:01 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:ViewAllSupportLinks / 7/17/2018 10:56:50 AM / Error
+SupportId 
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.SupportLinksMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\SupportLinksMapperDO.cs:line 15
+   at StrongerTogetherDAL.SupportLinksDAO.ViewAllSupportLinks() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 174
+----------------------------------------
+Class:SupportLinksDAO Method:UpdateSupportLinks / 7/17/2018 12:30:47 PM / Error
+Procedure or function 'Update_Support_Links' expects parameter '@Address', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.SupportLinksDAO.UpdateSupportLinks(SupportLinksDO supportLinks) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 118
+----------------------------------------
+Class:SupportLinksDAO Method:UpdateSupportLinks / 7/17/2018 12:43:03 PM / Error
+Procedure or function 'Update_Support_Links' expects parameter '@Address', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.SupportLinksDAO.UpdateSupportLinks(SupportLinksDO supportLinks) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 118
+----------------------------------------
+Class:SupportLinksDAO Method:UpdateSupportLinks / 7/17/2018 12:46:07 PM / Error
+Procedure or function 'Update_Support_Links' expects parameter '@Address', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.SupportLinksDAO.UpdateSupportLinks(SupportLinksDO supportLinks) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\SupportLinksDAO.cs:line 118
+----------------------------------------
+Class:UserDAO Method:ViewAllUsers / 7/20/2018 9:30:51 AM / Error
+RoleId
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.Mapping.UserMapperDO.MapReaderToSingle(SqlDataReader reader) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\Mapping\UserMapperDO.cs:line 33
+   at StrongerTogetherDAL.UserDAO.ViewAllUsers() in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 182
+----------------------------------------
+Class:AccountController Method:Login / 7/20/2018 10:46:08 AM / Error
+RoleId
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.UserDAO.ViewUsersByUsername(String username) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 80
+   at StrongerTogether.Controllers.AccountController.Login(Login form) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogether\Controllers\AccountController.cs:line 98
+----------------------------------------
+Class:AccountController Method:Login / 7/20/2018 10:46:21 AM / Error
+RoleId
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.UserDAO.ViewUsersByUsername(String username) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\UserDAO.cs:line 80
+   at StrongerTogether.Controllers.AccountController.Login(Login form) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogether\Controllers\AccountController.cs:line 98
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 10:51:47 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 10:52:06 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 10:56:10 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 10:58:30 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 11:03:32 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 11:06:07 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:ViewWrittingsById / 7/20/2018 11:10:54 AM / Error
+Username
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at StrongerTogetherDAL.WrittingsDAO.ViewWrittingsById(Int64 writtingId) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 44
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 11:21:15 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/20/2018 11:23:14 AM / Error
+Cannot insert the value NULL into column 'DatePublished', table 'StrongerTogether.dbo.Writtings'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 143
+----------------------------------------
+Class:WrittingsController Method:CreateWrittings / 7/26/2018 8:29:17 AM / Error
+Object reference not set to an instance of an object.
+   at StrongerTogetherBLL.Logic.CountWords(WrittingsBO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherBLL\Logic.cs:line 12
+   at StrongerTogether.Controllers.WrittingsController.CreateWrittings(Writtings form) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogether\Controllers\WrittingsController.cs:line 70
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/26/2018 9:36:52 AM / Error
+Procedure or function 'Update_Writtings' expects parameter '@WordCount', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 140
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/26/2018 9:37:11 AM / Error
+Procedure or function 'Update_Writtings' expects parameter '@WordCount', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 140
+----------------------------------------
+Class:WrittingsDAO Method:UpdateWrittings / 7/26/2018 9:41:21 AM / Error
+Procedure or function 'Update_Writtings' expects parameter '@WordCount', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StrongerTogetherDAL.WrittingsDAO.UpdateWrittings(WrittingsDO writtings) in C:\Users\Seth\Source\Repos\StrongerTogether\StrongerTogetherDAL\WrittingsDAO.cs:line 140

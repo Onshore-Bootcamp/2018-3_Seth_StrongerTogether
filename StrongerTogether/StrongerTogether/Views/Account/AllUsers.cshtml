@@ -1,0 +1,53 @@
+﻿@using StrongerTogether.Models
+@model List<User>
+
+@{
+    ViewBag.Title = "AllUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 align="center">All Users</h2>
+<table class="table table-bordered table-striped">
+    @*displays the information*@
+    <thead>
+        <tr>
+            <th>
+                Username
+            </th>
+            <th>
+                Role Name
+            </th>
+            <th>
+                Role Description
+            </th>
+            <th>
+                User Details
+            </th>
+        </tr>
+    </thead>
+    @*pulls the informaton*@
+    <tbody>
+        @foreach (User displayObject in Model)
+        {
+        <tr>
+            <td>
+                @displayObject.Username
+            </td>
+            <td>
+                @displayObject.RoleName
+            </td>
+            <td>
+                @displayObject.Description
+            </td>
+            @*redirect action*@
+            <td>
+                @Html.ActionLink("Details", "UserDetails", "Account", new { userId = displayObject.UserId }, null)
+            </td>
+        </tr>
+        }
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+

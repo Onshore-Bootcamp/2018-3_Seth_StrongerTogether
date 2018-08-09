@@ -1,0 +1,91 @@
+﻿@using StrongerTogether.Models
+@model List<SupportLinks>
+@{
+    ViewBag.Title = "AllSupportLinks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 align="center">All Support Links</h2>
+
+@if ((long?)Session["Role"] >= 2)
+{
+
+    @Html.ActionLink("Create Support Link", "CreateSupportLinks", "SupportLinks", null, new { @class = "btn btn-warning" })
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                Phone
+            </th>
+            
+            <th>
+                Details
+            </th>
+            @if ((long?)Session["Role"] >= 2)
+            {
+                <th>
+                    Update
+                </th>
+
+                if ((long)Session["Role"] == 3)
+                {
+                    <th>
+                        Delete
+                    </th>
+                }
+            }
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (SupportLinks displayObject in Model)
+        {
+            <tr>
+                <td>
+                    @displayObject.Name
+                </td>
+                <td>
+                    @displayObject.Address
+                </td>
+                <td>
+                    @displayObject.Phone
+                </td>
+                
+                <td>
+                    <a href="@displayObject.Url" target="_blank">@displayObject.Url</a>
+                </td>
+                @if ((long?)Session["Role"] >= 2)
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "UpdateSupportLinks", "SupportLinks", new { SupportId = displayObject.SupportId }, null)
+                    </td>
+
+
+                    if ((long)Session["Role"] == 3)
+                    {
+                        <td>
+                            @Html.ActionLink("Delete", "DeleteSupportLinks", "SupportLinks", new { SupportId = displayObject.SupportId }, new { @onclick = "return confirm('Are you sure?')" })
+                        </td>
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+<img height="300" width="375" src="/Content/Images/FeaturesOfSchizophrenia.jpg" />
+<img height="300" width="385" src="~/Content/Images/bpd.jpg" />
+<img height="300" width="370" src="~/Content/Images/Five.jpg" />
+
+
+

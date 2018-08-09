@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+@*Make appropriate comment*@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Stronger Together </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+@*Make appropriate comment*@
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Stronger Together", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            @*Make appropriate comment*@
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("All Users", "AllUsers", "Account")</li>
+                    <li>@Html.ActionLink("All Writings", "AllWrittings", "Writtings")</li>
+                    <li>@Html.ActionLink("Support Links", "AllSupportLinks", "SupportLinks")</li>
+                </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (Session["Role"] == null)
+                        {
+                            <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                            <li>@Html.ActionLink("Register","create","Account")</li>
+                        }
+                        @if ((long?)Session["Role"] >= 1)
+                        {
+                            <li>@Html.ActionLink(Session["Username"].ToString(), "UserDetails", "Account", new { userId = Session["UserId"]}, null)</li>
+                            <li>@Html.ActionLink("Log Off", "LogOff", "Account")</li>
+                        }
+                    </ul>
+            </div>
+        </div>
+    </div>
+    @*Make appropriate comment*@
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Stronger Together</p>
+        </footer>
+    </div>
+
+    @*Make appropriate comment*@
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

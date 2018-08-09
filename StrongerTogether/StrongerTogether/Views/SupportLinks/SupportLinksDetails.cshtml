@@ -1,0 +1,76 @@
+﻿@using StrongerTogether.Models
+@model SupportLinks
+@{
+    ViewBag.Title = "SupportLinksDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Support Links Details</h2>
+
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                Url
+            </th>
+            
+            @if ((long?)Session["Role"] >= 2)
+            {
+                <th>
+                    Update
+                </th>
+                if ((long)Session["Role"] == 3)
+                {
+                    <th>
+                        Delete
+                    </th>
+                }
+            }
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Model.Name
+            </td>
+            <td>
+                @Model.Address
+            </td>
+            <td>
+                @Model.Phone
+            </td>
+            <td>
+                <a href="@Model.Url" target="_blank">@Model.Url</a>
+
+            </td>
+            @if ((long?)Session["Role"] >= 2)
+            {
+                <td>
+                    @Html.ActionLink("Edit", "UpdateSupportLinks", "SupportLinks", new { SupportId = Model.SupportId }, null)
+                </td>
+                if ((long)Session["Role"] == 3)
+                {
+                    <td>
+                        @Html.ActionLink("Delete", "DeleteSupportLinks", "SupportLinks", new { SupportId = Model.SupportId }, null)
+                    </td>
+                }
+            }
+
+        </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+
+@Html.ActionLink("Click to Return to All Support Links", "AllSupportLinks", "SupportLinks", null)

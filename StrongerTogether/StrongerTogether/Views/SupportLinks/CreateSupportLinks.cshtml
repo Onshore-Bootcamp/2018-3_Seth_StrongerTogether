@@ -1,0 +1,45 @@
+﻿@using StrongerTogether.Models
+@model SupportLinks
+@{
+    ViewBag.Title = "CreateSupportLinks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Support Links</h2>
+
+@*Make appropriate comment*@
+@if ((long?)Session["Role"] >= 2)
+{
+    @*Make appropriate comment*@
+    using (Html.BeginForm("CreateSupportLinks", "SupportLinks", FormMethod.Post))
+    {
+        @*Make appropriate comment*@
+        <div class="form-horizontal">
+            @Html.LabelFor(model => Model.Name)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => Model.Name, "", new { @class = "text-danger" })
+            </div>
+            @Html.LabelFor(model => Model.Address)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Address, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => Model.Address, "", new { @class = "text-danger" })
+            </div>
+            @Html.LabelFor(model => Model.Phone)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Phone, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => Model.Phone, "", new { @class = "text-danger" })
+            </div>
+            @Html.LabelFor(model => Model.Url)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Url, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => Model.Url, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*Make appropriate comment*@
+        <div class="form-group">
+            <input class="btn btn-success" type="submit" value="Create Away" />
+        </div>
+    }
+}
